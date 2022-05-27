@@ -1,0 +1,61 @@
+.linear-simple {
+    background: linear-gradient(rgb(48, 204, 243), rgb(127, 215, 127));
+    height: 100vh;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* um comentàrio */
+
+#carte {
+    display: flex;
+    background-color: white;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+img {
+    width: 300px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-around;
+    padding: 0px;
+
+
+}
+
+#redes {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+
+#redes i {
+    color: rgb(150, 213, 233);
+}
+
+i {
+    font-size: 25px;
+    color: rgb(61, 205, 248);
+}
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+}
+
+h4 {
+    color: grey;}
